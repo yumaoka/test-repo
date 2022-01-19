@@ -1,7 +1,7 @@
 name: Change Proposal
 description: File a XLIFF specification change proposal
 title: "[Proposal] <title>"
-labels: [change-proposal]
+labels: [change proposal]
 body:
 - type: checkboxes
   attributes:

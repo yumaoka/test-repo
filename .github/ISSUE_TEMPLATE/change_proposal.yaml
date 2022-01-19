@@ -4,30 +4,33 @@ title: "[Proposal] <title>"
 labels: [change proposal]
 body:
 - type: input
-    id: authors
+  id: authors
+  attributes:
     label: Authors
     description: List authors of this proposal
 - type: checkbox
-    attributes:
-      label: Target Specification
-      description: Check all applicable specification types
-      options:
-        - XLIFF core specification
-        - XLIFF extended specification
+  attributes:
+    label: Target Specification
+    description: Check all applicable specification types
+    options:
+      - XLIFF core specification
+      - XLIFF extended specification
 - type: checkbox
-    attributes:
-      label: Area of Changes
-      description: Check all applicable change areas affected by this proposal
-      options:
-        - XLIFF specification document
-        - XLIFF schema
-        - XLIFF validator
-        - Example files
+  attributes:
+    label: Area of Changes
+    description: Check all applicable change areas affected by this proposal
+    options:
+      - XLIFF specification document
+      - XLIFF schema
+      - XLIFF validator
+      - Example files
 - type: textarea
-    id: proposal-description
+  id: proposal-description
+  attributes:
     label: Detailed Description
     description: Describe the change proposal in detail
 - type: textarea
     id: compatibility
-    label: Compatibility Impacts
-    description: Describe any potential compatibility issues affectign existing users and tools
+    attributes:
+      label: Compatibility Impacts
+      description: Describe any potential compatibility issues affectign existing users and tools

@@ -30,6 +30,11 @@ body:
     label: Detailed Description
     description: Describe the change proposal in detail
 - type: textarea
+  id: use-case
+  attributes:
+    label: Example Use Case
+    description: Provide example use case if any
+- type: textarea
   id: compatibility
   attributes:
     label: Compatibility Impacts

@@ -8,14 +8,14 @@ body:
   attributes:
     label: Authors
     description: List authors of this proposal
-- type: checkbox
+- type: checkboxes
   attributes:
     label: Target Specification
     description: Check all applicable specification types
     options:
       - XLIFF core specification
       - XLIFF extended specification
-- type: checkbox
+- type: checkboxes
   attributes:
     label: Area of Changes
     description: Check all applicable change areas affected by this proposal

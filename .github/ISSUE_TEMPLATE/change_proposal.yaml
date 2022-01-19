@@ -31,6 +31,6 @@ body:
     description: Describe the change proposal in detail
 - type: textarea
   id: compatibility
-    attributes:
-      label: Compatibility Impacts
-      description: Describe any potential compatibility issues affectign existing users and tools
+  attributes:
+    label: Compatibility Impacts
+    description: Describe any potential compatibility issues affectign existing users and tools

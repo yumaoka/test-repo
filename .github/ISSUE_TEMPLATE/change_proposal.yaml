@@ -13,17 +13,17 @@ body:
     label: Target Specification
     description: Check all applicable specification types
     options:
-      - XLIFF core specification
-      - XLIFF extended specification
+      - label: XLIFF core specification
+      - label: XLIFF extended specification
 - type: checkboxes
   attributes:
     label: Area of Changes
     description: Check all applicable change areas affected by this proposal
     options:
-      - XLIFF specification document
-      - XLIFF schema
-      - XLIFF validator
-      - Example files
+      - label: XLIFF specification document
+      - label: XLIFF schema
+      - label: XLIFF validator
+      - label: Example files
 - type: textarea
   id: proposal-description
   attributes:

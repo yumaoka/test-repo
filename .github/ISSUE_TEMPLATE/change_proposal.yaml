@@ -30,7 +30,7 @@ body:
     label: Detailed Description
     description: Describe the change proposal in detail
 - type: textarea
-    id: compatibility
+  id: compatibility
     attributes:
       label: Compatibility Impacts
       description: Describe any potential compatibility issues affectign existing users and tools
